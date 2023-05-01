@@ -21,6 +21,9 @@
     "start": "pnpm --filter @graphprotocol/docs start",
     "typecheck": "pnpm --filter @graphprotocol/docs typecheck"
   },
+  "dependencies": {
+    "@graphprotocol/nextra-theme": "workspace:^"
+  },
   "devDependencies": {
     "@edgeandnode/eslint-config": "^1.3.1",
     "eslint": "^8.39.0",
